@@ -148,7 +148,7 @@ logFile.withPrintWriter { pw ->
                         baseArgs,
                         ['-m', overseqThreshold],
                         ['-q', umiQualThreshold],
-                        ['--assembly-mask', mask]
+                        ['--mask', mask]
                 ]
 
                 if (filterCollisions)
